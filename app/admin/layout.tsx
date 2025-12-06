@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { AdminNav } from "@/components/admin-nav";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { isAuthenticated } from "@/lib/auth";

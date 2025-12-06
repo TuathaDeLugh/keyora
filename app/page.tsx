@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { ArrowRight, ShoppingBag, Sparkles, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -123,7 +123,7 @@ export default function Home() {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white/10 text-lg px-8"
+                  className="border-white text-white hover:bg-white/10 text-lg px-8 bg-background/10"
                 >
                   <Link href="/collections">View Collections</Link>
                 </Button>

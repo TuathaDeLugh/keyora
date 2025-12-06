@@ -4,6 +4,27 @@
   /* Font families */
   --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  /* Colors - Tailwind v4 requires colors in @theme */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
 }
 
 :root {
@@ -19,9 +40,9 @@
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
 
-  /* Primary - Vibrant Purple */
-  --primary: 262 83% 58%;
-  --primary-foreground: 210 40% 98%;
+  /* Primary - Teal/Cyan #00a3a5 */
+  --primary: 181 100% 32%;
+  --primary-foreground: 0 0% 100%;
 
   /* Secondary - Teal */
   --secondary: 174 72% 56%;
@@ -46,7 +67,7 @@
   /* Border */
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 262 83% 58%;
+  --ring: 181 100% 32%;
 
   /* Chart colors */
   --chart-1: 262 83% 58%;
@@ -72,9 +93,9 @@
   --popover: 222.2 84% 4.9%;
   --popover-foreground: 210 40% 98%;
 
-  /* Primary - Vibrant Purple (slightly adjusted for dark mode) */
-  --primary: 262 80% 65%;
-  --primary-foreground: 222.2 47.4% 11.2%;
+  /* Primary - Teal/Cyan (adjusted for dark mode) */
+  --primary: 181 100% 40%;
+  --primary-foreground: 0 0% 100%;
 
   /* Secondary - Teal */
   --secondary: 174 65% 60%;
@@ -99,7 +120,7 @@
   /* Border */
   --border: 217.2 32.6% 17.5%;
   --input: 217.2 32.6% 17.5%;
-  --ring: 262 80% 65%;
+  --ring: 181 100% 40%;
 
   /* Chart colors */
   --chart-1: 262 80% 65%;
